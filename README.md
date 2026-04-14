@@ -40,6 +40,7 @@ You will need to install the following libraries in the Arduino IDE:
    - Compass SDA -> `D2`, SCL -> `D1`
    - Servo -> `D5`
 4. If your compass behaves incorrectly, you may need to update the calibration values in the `setup()` block.
+
    **Note:** Right now the search is set to restaurants, but it can be easly changed.
 
 ## How It Works
