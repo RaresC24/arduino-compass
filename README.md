@@ -1,3 +1,6 @@
+![WhatsApp Image 2026-04-14 at 1 58 53 PM](https://github.com/user-attachments/assets/1121e38a-d2df-4266-906a-67eb8b10da8f)
+<img width="2340" height="1824" alt="Gemini_Generated_Image_jc04k0jc04k0jc04" src="https://github.com/user-attachments/assets/da7af608-ff35-47de-9dd4-1f433b8d4f54" />
+
 # ESP Compass
 
 An ESP8266-based project that acts as an automated compass pointing you to the nearest restaurant or pub.
