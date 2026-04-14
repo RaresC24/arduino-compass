@@ -1,10 +1,9 @@
 <img width="2040" height="1524" alt="Gemini_Generated_Image_jc04k0jc04k0jc04" src="https://github.com/user-attachments/assets/da7af608-ff35-47de-9dd4-1f433b8d4f54" />
 
-![WhatsApp Image 2026-04-14 at 1 56 46 PM](https://github.com/user-attachments/assets/ebac69a5-e603-4a77-8494-deb66d14242a)
 
 # ESP Compass
 
-An ESP8266-based project that acts as an automated compass pointing you to the nearest restaurant or pub.
+An ESP8266-based project that acts as an automated compass pointing you to the nearest choice of a place (restaurant, pub, etc.).
 
 It uses a GPS module to obtain your current location, queries the **Google Places API** to find the closest restaurant, and then calculates the distance and heading. Using a **QMC5883L Compass** module to determine your current orientation, a **Servo Motor** then rotates to physically point in the direction of the destination!
 
@@ -41,9 +40,16 @@ You will need to install the following libraries in the Arduino IDE:
    - Compass SDA -> `D2`, SCL -> `D1`
    - Servo -> `D5`
 4. If your compass behaves incorrectly, you may need to update the calibration values in the `setup()` block.
+   **Note:** Right now the search is set to restaurants, but it can be easly changed.
 
 ## How It Works
 - Upon boot, it calibrates the compass and connects to your specified WiFi.
 - It constantly listens to the GPS module until a lock is obtained.
 - It then makes an HTTPS request to `https://places.googleapis.com/v1/places:searchNearby` with your exact GPS coordinates.
 - Once a target is found, it calculates the heading towards it, compares it with your current compass reading, and moves the servo to point ahead, left, right, or behind!
+
+
+
+
+![WhatsApp Image 2026-04-14 at 1 56 46 PM](https://github.com/user-attachments/assets/ebac69a5-e603-4a77-8494-deb66d14242a)
+
