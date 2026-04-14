@@ -1,5 +1,6 @@
 <img width="2040" height="1524" alt="Gemini_Generated_Image_jc04k0jc04k0jc04" src="https://github.com/user-attachments/assets/da7af608-ff35-47de-9dd4-1f433b8d4f54" />
-![WhatsApp Image 2026-04-14 at 1 56 46 PM](https://github.com/user-attachments/assets/c9886261-2c60-4630-947e-96e41772e10c)
+
+![WhatsApp Image 2026-04-14 at 1 56 46 PM](https://github.com/user-attachments/assets/ebac69a5-e603-4a77-8494-deb66d14242a)
 
 # ESP Compass
 
